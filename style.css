@@ -1,0 +1,509 @@
+Reset some default styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic styling */
+ body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    width: 100%;
+}
+
+ header {
+    background-color: #333;
+    
+    color: #fff;
+    padding: 35px 155px;
+}
+
+.greeting {
+  background-color: #2c3e50;
+}
+
+nav {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    max-width: 1200px;
+    margin:-10px auto;
+    padding: 0 20px;
+    position: relative;
+    left: 12%;
+    top: 50%;
+}
+
+.logo {
+  margin: 0px;
+  
+  margin-left: -140px;
+  margin-bottom: -15px;
+  margin-top: -5px;
+  padding: 0px;
+}
+
+.logo a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    position: relative;
+
+    top: 0px;
+    margin-left: 0px;
+}
+
+a .banner-img {
+  width: 150px;
+  margin: 0px;
+  margin-left: 20px;
+  margin-bottom: -70px;
+  margin-top: -20px;
+  padding: 0px;
+}
+
+
+
+.menu {
+    list-style: none;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    line-height: 0px;
+}
+
+
+.menu li {
+    margin-right: 20px;
+}
+
+
+
+.menu li:last-child {
+    margin-right: 0;
+}
+
+
+.menu a {
+    color: #fff;
+    text-decoration: none;
+} 
+
+.menu a:hover{
+  color: #b59a61;
+}
+
+/* header {
+  background-color: #333;
+  color: #fff;
+  padding: 35px 0;
+  width: 100vw;
+}
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  max-width: 1200px;
+  margin: -10px auto;
+  padding: 0 20px;
+  position: relative;
+  left: 12%;
+  top: 50%;
+}
+
+.logo {
+  margin: 0;
+  padding: 0;
+}
+
+.logo a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+  margin-left: 0;
+}
+
+.logo .banner-img {
+  width: 150px;
+  margin: 0;
+  margin-left: 20px;
+  margin-bottom: -70px;
+  margin-top: -20px;
+  padding: 0;
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+}
+
+.menu li {
+  margin-right: 20px;
+}
+
+.menu li:last-child {
+  margin-right: 0;
+}
+
+.menu a {
+  color: #fff;
+  text-decoration: none;
+} 
+
+.menu a:hover {
+  color: #b59a61;
+} */
+
+
+
+.redes-sociales1 {
+    color: black;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+.redes-sociales1:hover{
+  color: #333;
+}
+
+.redes-sociales1:active{
+  color: #161616;
+}
+ 
+
+.hero {
+    background-image: url('/images/_DSC0770-Mejorado-NR\ copia2\ copia.jpg');
+    background-size: cover;
+    background-position-y: 0px;
+    text-align: center;
+    color: #fff;
+    padding: 150px 0;
+}
+
+.hero h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.services {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.services-section {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.service {
+    flex: 1;
+    margin: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+}
+
+.service img {
+    max-width: 100%;
+    height: auto;
+}
+
+footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+footer h3 {
+  text-align: center;
+}
+
+footer ul li  {
+  list-style: none;
+
+}
+
+footer ul li a {
+  color: #fff;
+  font-size: 20px;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  right: 15px;
+  line-height: 30px;
+}
+
+footer ul li a:hover{
+  color: #b59a61;
+}
+
+
+.checkbtn {
+    font-size: 25px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: -90px;
+    cursor: pointer;
+    display: none;
+  }
+
+.contenido {
+  width: 80%;
+  margin: 0 auto;
+
+}
+
+.leer-mas {
+  display: none;
+}
+
+.boton-leer-mas {
+  background-color: #333;
+  border-radius: 5px;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin: 0px 110px;
+}
+
+.boton-leer-mas:hover {
+  background-color: #6d6d6d;
+}
+
+  /* Estilos para pantallas más pequeñas (hasta 768px) */
+@media (max-width: 768px) {
+    /* Aquí puedes escribir los estilos que se aplicarán en pantallas más pequeñas */
+    header {
+      background-color: #333;
+      height: 25px;
+    }
+
+    .logo {
+      margin-top: -45px;
+    }
+
+    .logo a {
+      margin-top: 10px;
+      position: relative;
+      top: 10px;
+    }
+  
+    .checkbtn {
+      display: block;
+      margin-top: -30px
+    }
+  
+    .navbar {
+      height: 0vh;
+      position: absolute;
+      top: 80px;
+      left: 0;
+      width: 100%;
+      background: #2c3e50;
+      /* text-align: center; */
+  
+      transition: all 0.5s;
+      overflow: hidden;
+    }
+  
+    .navbar ul.menu {
+      float: none;
+      /* display: block; */
+      width: 174px;
+      margin: 0 auto;
+      opacity: 0;
+      margin-bottom: 720px;
+    }
+  
+    .navbar ul.menu li a:hover {
+      color: #b59a61;
+    }
+    /* ACTIVE */
+    .navbar.active {
+      height: 190vh;
+      width: 91%;
+      margin-left: 8px;
+      margin-top: 20px;
+    }
+  
+    .navbar.active ul.menu {
+      opacity: 1;
+    }
+
+    
+    .menu {
+      list-style: none;
+      font-size: 28px;
+      display: flex;
+      flex-direction: column;
+      justify-content: right;
+      line-height: 80px;
+    }
+
+
+
+.menu li {
+  margin-right: 20px;
+}
+
+
+
+.menu li:last-child {
+  margin-right: -10px;
+}
+
+
+.menu a {
+  color: #fff;
+  text-decoration: none;
+} 
+
+.hero {
+  background-image: url(/images/_DSC0770-Mejorado-NR\ copia2\ copia.jpg);
+  background-size: cover;
+  background-position-y: 0px;
+  
+  text-align: center;
+  color: #fff;
+  padding: 150px 0;
+}
+
+.services {
+  max-width: 1200px;
+  margin: 0px auto;
+  padding: 40px 20px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  }
+
+  /* .services-section {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 375px;
+    margin-left: 0px;
+  }   */
+
+}
+
+
+@media (max-width: 350px) {
+  .hero {
+    background-position-x: -325px;
+    
+  }
+
+  header {
+    width: 0em;
+  }
+
+  /* .navbar {
+    height: 0vh;
+    position: absolute;
+    top: 80px;
+    left: 0;
+    width: 100%;
+    background: #2c3e50;
+    
+
+    transition: all 0.5s;
+    overflow: hidden;
+  } */
+
+  .navbar.active {
+    height: 200vh;
+    width: 100%;
+    margin-left: 8px;
+    margin-top: 20px;
+  }
+
+  .services-section {
+    max-width: 600px;
+  }
+
+  .service img {
+    max-width: 100%;
+    height: auto;
+
+
+}
+  footer {
+    width: 20em;
+  }
+
+  .service {
+    margin: 10px;
+    margin-left: 25px;
+    width: 13em;
+    font-size: 10px;
+  }
+
+   h1 {
+    font-size: 18px;
+  }
+
+  .boton-leer-mas {
+    margin: 0px 30px;
+  }
+
+}
+
+
+
+/* Estilos para pantallas entre 800px y 900px */
+@media (min-width: 800px) and (max-width: 900px) {
+  nav {
+      /* Ajusta los estilos según tus necesidades */
+  }
+
+  .menu {
+      /* Ajusta los estilos según tus necesidades */
+  }
+}
+
+@media (min-width: 350px) and (max-width: 600px) {
+  .hero {
+    background-position-x: -150px;
+    image-resolution: 500px;
+  }
+
+
+}
